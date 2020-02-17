@@ -92,9 +92,9 @@ be able to provide much help if you try them and run into trouble.
 | Copac         | `.copac`       |
 | JSON citeproc | `.json`        |
 
-You can export files in many of these formats (especially RIS and
-BibTeX) from most bibliographic software packages, such as EndNote,
-Mendeley, and Zotero.
+You can also export bibliographic data in many of these formats
+(especially RIS and BibTeX) from most bibliographic software packages,
+such as EndNote, Mendeley, and Zotero.
 
 # Citations
 

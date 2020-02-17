@@ -55,7 +55,6 @@ EndNote, Zotero, and Mendeley.
 You can find further documentation about bibliographies and citations
 at <http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html>
 
-
 # Bibliography Files
 
 RMarkdown reads bibliography entries from an external bibliography file.
@@ -125,8 +124,9 @@ other people.
 | Copac | `.copac` |
 | JSON citeproc | `.json` |
 
-You can export files in many of these formats (especially RIS and BibTeX) from
-most bibliographic software packages, such as EndNote, Mendeley, and Zotero.
+You can also export bibliographic data in many of these formats 
+(especially RIS and BibTeX) from most bibliographic software packages, 
+such as EndNote, Mendeley, and Zotero.
 
 # Citations
 
