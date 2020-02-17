@@ -4,16 +4,15 @@ author: "Jonathan Gilligan"
 date: 'Lab: Feb. 17; Report due Mar. 12.; Presentations Mar. 16'
 fontsize: 12pt
 output:
+  github_document:
+    toc: yes
   html_document: 
     toc: yes
   pdf_document:
     toc: yes
     includes:
       in_header: ees3310.sty
-  github_document:
-    toc: yes
 ---
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
