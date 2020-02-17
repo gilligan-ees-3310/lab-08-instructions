@@ -1,12 +1,17 @@
 ---
-title: 'Lab 5: Individual Research Project '
+title: 'Lab 6: Individual Research Project '
 author: "Jonathan Gilligan"
-date: 'Lab: Oct. 1; Presentations Oct. 15; Report due Oct. 17.'
+date: 'Lab: Feb. 17; Report due Mar. 12.; Presentations Mar. 16'
+fontsize: 12pt
 output:
+  html_document: 
+    toc: yes
   pdf_document:
+    toc: yes
     includes:
       in_header: ees3310.sty
-  html_document: default
+  github_document:
+    toc: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -16,9 +21,9 @@ library(tidyverse)
 library(lubridate)
 library(stringr)
 
-topic_approval_date = ymd("2017-10-05")
-due_date = ymd_hms("2017-10-17 23:59:00", tz="America/Chicago")
-presentation_due_date = ymd_hms("2017-10-15 14:10:00", tz="America/Chicago")
+topic_approval_date = ymd("2020-02-21")
+due_date = ymd_hms("2020-03-12 23:59:00", tz="America/Chicago")
+presentation_due_date = ymd_hms("2020-03-16T14:10:00", tz="America/Chicago")
 
 date_fmt = function(d) {
   strftime(d, format = "%b. %e") %>% str_trim() %>% str_replace_all(" +", " ")
@@ -44,9 +49,12 @@ consit of exploring the "why" portion of previous questions that only asked you
 to describe patterns in the data or it may be evaluating relationships between 
 other variables not assesed in prior labs. To answer your question, you may use 
 the any of the data from lab 2, the MODTRAN model, the RRTM model, the GEOCARB 
-model, or a combination thereof. Please get your topic approved by either 
-Dr. Gilligan or Ms. Best by `r date_fmt(topic_approval_date)`. The final 
-project is **due `r date_fmt(due_date)` at `r time_fmt(due_date)`**.
+model, or a combination thereof. 
+
+Please get your topic approved by either 
+Professor Gilligan or Ms. Best by `r date_fmt(topic_approval_date)`. 
+
+The lab report for your project is **due `r date_fmt(due_date)` at `r time_fmt(due_date)`**.
 
 ## Solo or Team Projects
 
@@ -148,6 +156,29 @@ R/RMarkdown/Github, the clarity and succinctness of your writing,
 visual representations of data, appropriate discussion of results, 
 and insights into future analyses. 
 
+## Making PDF output from RMarkdown
+
+To make PDF output from RMarkdown, you need to install a program called
+"LaTeX" (pronounced "layteck", rhyming with "tech"). I describe how to do 
+this on ["Tools" section](https://ees3310.jgilligan.org/tools/#installing-latex) 
+of the class web site, but I will summarize here: 
+The easiest way to install LaTeX for RMarkdown is to use the `tinytex` 
+package in R. To do this, execute the following commands at the RStudio 
+console:
+```r
+install.packages("tinytex")
+library(tinytex)
+install_tinytex(extra_packages=c("mhchem", "mathptmx"))
+```
+This may take 5-10 minutes to complete, so you probably want to wait until a
+time when you won't need your computer for a bit before you do it.
+
+An alternative, but which is more involved and will use more space on your disk,
+would be to install the [MikTeX package](https://miktex.org) from 
+[miktex.org](https://miktex.org). Instructions for doing this are presented on
+the [Tools](https://ees3310.jgilligan.org/tools/#installing-latex) section of the 
+class web site.
+
 # Presentation (`r date_fmt(presentation_due_date)`)
 
 Presentations will be limited to five minutes per student. Allot approximately 
@@ -163,3 +194,4 @@ coordinate so that each member speaks for roughly equal time.
 * A Powerpoint or PDF of your final presentation needs to be pushed to Github 
   _no later than `r time_fmt(presentation_due_date)` on 
   `r date_fmt(presentation_due_date)`_. 
+
