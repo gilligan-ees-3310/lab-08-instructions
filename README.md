@@ -1,19 +1,33 @@
-# Instructions for EES 3310/5310 Lab #6
+# Lab #8 Assignment: Independent Project
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+## Overview
 
-For the next month you will be working individually or in pairs on an independent
-project. The written report from your project is due (as an RMarkdown document
-knitted to a PDF file) on Thursday March 12 and you will give a presentation in 
-the lab session on Monday March 16.
+You will choose an independent project to extend one of the exercises you
+did in a previous lab (#2--#6). You will work alone or with a partner
+to develop a new question that goes beyond the previous lab assignments, but
+builds upon a previous exercise. 
 
-You will find detailed instructions for the project in the document
-[lab-06-instructions](lab-06-instructions.md).
+After finishing your investigation, over the next several weeks, 
+You will turn in a formal lab report, prepared with 
+RMarkdown and knitted successfully into a PDF file by 11:59 pm on 
+Thursday April 1.
+The length of the formal report should be comparable to what you have turned in
+for previous labs.
+Because this is an independent project, rather than something with detailed 
+instructions, you have several weeks to investigate your topic.
 
-There are also instructions for managing citations, bibliographies, and related
-things in the document [citations_bibliographies](citations_bibliographies.md).
+This project repository contains copies of the scripts we used in previous labs
+and a blank RMarkdown file in which you can fill in your lab report.
 
-Both of these documents are also available on the class web site and the 
-RMarkdown source code for them is available on GitHub at
-<https://github.com/gilligan-ees-3310-2020/lab-06-instructions>
+## Assignment and Resources
 
+The formal assignment has been posted on the course web site and there is also
+a copy in this directory: [lab-08-instructions.pdf](lab-08-instructions.pdf)
+and 
+[a version you can read online on the course web site](https://ees3310.jgilligan.org/lab_docs/lab_08_instructions)
+
+There are resources to help you with things like bibliographies, citations,
+and other aspects of this project in RMarkdown 
+[posted on the class web site](https://ees3310.jgilligan.org/lab_docs/lab_06_citations_bibliographies).
+You can get the raw RMarkdown files for those resources at
+<https://github.com/gilligan-ees-3310/lab-08-instructions.git>
