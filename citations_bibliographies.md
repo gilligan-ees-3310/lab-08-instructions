@@ -1,7 +1,7 @@
 Citations and Bibliographies
 ================
 Jonathan Gilligan
-2021-03-15
+2022-03-21
 
 -   [Introduction](#introduction)
     -   [Getting fancy with citations and
@@ -71,10 +71,10 @@ For the examples here, I will work with a format called BibTeX because
 most common software packages can export bibliographies in BibTeX
 format, and Google Scholar can also provide citations in BibTeX format
 that you can copy and past from a browser. BibTeX files are plain text
-and you can edit them in RStudio.[1]
+and you can edit them in RStudio.[^1]
 
 If you prefer, you can also use bibliographic software, such as
-Zotero,[2] Mendeley, or EndNote, and export your bibliography in RIS
+Zotero,[^2] Mendeley, or EndNote, and export your bibliography in RIS
 format (as a `.ris` file), BibTeX format (as a `.bib` file), or BibLaTeX
 format (as a `.biblatex` file). RMarkdown claims to support the
 following file types as well, but I have not tried them, so I would not
@@ -99,7 +99,7 @@ Mendeley, and Zotero.
 # Citations
 
 In your document, you can cite books, articles, etc. by the identifiers,
-or *keys*, that appear in the database.[3] If you open the bibliography
+or *keys*, that appear in the database.[^3] If you open the bibliography
 file in RStudio, you will see that all references begin with a reference
 type, starting with `@` (e.g., `@book` for a book, `@article` for an
 article in a journal, etc.) and then all the data for the reference is
@@ -175,7 +175,7 @@ citation by putting them in square brackets after an in-text citation:
 
 becomes
 
-> Rogelj et al. (2013Fig. 2, p. 81) show that if political inaction
+> Rogelj et al. (2013, fig. 2, p. 81) show that if political inaction
 > causes even modest delays in reducing carbon emissions, it can
 > dramatically increase the cost of mitigating climate change.
 
@@ -215,16 +215,16 @@ and confusing, so I would recommend one of three options:
 
     4.  You will see something like this:
 
-             @article{rogelj2012global,
-              title={Global warming under old and new scenarios using IPCC climate 
-                     sensitivity range estimates},
-              author={Rogelj, Joeri and Meinshausen, Malte and Knutti, Reto},
-              journal={Nature climate change},
-              volume={2},
-              number={4},
-              pages={248},
-              year={2012},
-              publisher={Nature Publishing Group}
+            @article{rogelj2012global,
+            title={Global warming under old and new scenarios using IPCC climate 
+                   sensitivity range estimates},
+            author={Rogelj, Joeri and Meinshausen, Malte and Knutti, Reto},
+            journal={Nature climate change},
+            volume={2},
+            number={4},
+            pages={248},
+            year={2012},
+            publisher={Nature Publishing Group}
             }
 
         Copy the entry and paste it into `lab-08.bib` in RStudio.
@@ -236,7 +236,7 @@ and confusing, so I would recommend one of three options:
         bibliographic software, but these are more cryptic and confusing
         to use.
 
-        For instance, if you clicked on “EndNote,” you would see
+        For instance, if you clicked on “EndNote”, you would see
         something like this:
 
             %0 Journal Article
@@ -253,7 +253,7 @@ and confusing, so I would recommend one of three options:
             %D 2012
             %I Nature Publishing Group
 
-        and if you clicked on “RefMan,” you would see something like
+        and if you clicked on “RefMan”, you would see something like
         this:
 
             TY  - JOUR
@@ -274,12 +274,12 @@ and confusing, so I would recommend one of three options:
 
         I find the BibTeX (`.bib`) format easier to work with because
         the data has names that make sense to people, like “journal”
-        instead of “`JO`” or “`%J`.”
+        instead of “`JO`” or “`%J`”.
 
 -   If you have a bibliographic program like Zotero, Mendeley, or
     EndNote, export the references you want as BibTeX files.
 
-    For instance, in Zotero,[4] highlight the references, right click,
+    For instance, in Zotero,[^4] highlight the references, right click,
     and from the context menu choose “Export Items…”; then select
     “BibTeX” format, click “OK” and save the exported items to a file.)
 
@@ -287,7 +287,7 @@ and confusing, so I would recommend one of three options:
     and copy and past the references from the exported file into
     `lab-05.bib`.
 
--   If you have JabRef[5] installed on your computer, you open
+-   If you have JabRef[^5] installed on your computer, you open
     `lab-08.bib`, manually create a new bibliographic entry and fill in
     the relevant data.
 
@@ -333,34 +333,36 @@ Mitigation.” *Nature* 493: 79–83.
 
 </div>
 
-[1] If you will use BibTeX files often, I recommend a free tool called
-JabRef, which lets you edit the information in a BibTeX file in a
-graphical interface without having to worry about the details of the
-BibTeX format. You can get JabRef from <http://www.jabref.org/>. It runs
-on Windows, MacOS, and Linux.
+[^1]: If you will use BibTeX files often, I recommend a free tool called
+    JabRef, which lets you edit the information in a BibTeX file in a
+    graphical interface without having to worry about the details of the
+    BibTeX format. You can get JabRef from <http://www.jabref.org/>. It
+    runs on Windows, MacOS, and Linux.
 
-[2] I recommend Zotero, which is a free, easy to use, and very powerful
-bibliography tool that supports Windows, MacOS, and Linux, and has
-add-ins that integrate very nicely with most browsers (Chrome, Firefox,
-Safari, and Opera) and also has a good add-in to let you use it in
-Microsoft Word. Zotero has hundreds of bibliography styles for different
-uses, including standard ones, such as Chicago, APA, and MLS. You can
-get Zotero from <https://zotero.org>. One reason I like Zotero
-enormously is that the web browser add-in creates an icon in the
-browser’s toolbar that recognizes when you are reading an article in a
-scholarly journal, a newspaper, a magazine, a blog, etc., and you can
-just click on the icon to import whatever you’re reading in your browser
-into your bibliography database. You can also sign up for a free account
-on <https://www.zotero.org/user/register> that will let you back up your
-bibliography database to the cloud, synchronize your bibliographies
-across multiple computers, and share bibliographies with other people.
+[^2]: I recommend Zotero, which is a free, easy to use, and very
+    powerful bibliography tool that supports Windows, MacOS, and Linux,
+    and has add-ins that integrate very nicely with most browsers
+    (Chrome, Firefox, Safari, and Opera) and also has a good add-in to
+    let you use it in Microsoft Word. Zotero has hundreds of
+    bibliography styles for different uses, including standard ones,
+    such as Chicago, APA, and MLS. You can get Zotero from
+    <https://zotero.org>. One reason I like Zotero enormously is that
+    the web browser add-in creates an icon in the browser’s toolbar that
+    recognizes when you are reading an article in a scholarly journal, a
+    newspaper, a magazine, a blog, etc., and you can just click on the
+    icon to import whatever you’re reading in your browser into your
+    bibliography database. You can also sign up for a free account on
+    <https://www.zotero.org/user/register> that will let you back up
+    your bibliography database to the cloud, synchronize your
+    bibliographies across multiple computers, and share bibliographies
+    with other people.
 
-[3] In BibTeX files, the identifiers can be any sequence of letters,
-numbers, and any of the following punctuation: ‘`_`,’ ‘`.`’ ‘`:`’ and
-‘`;`’
+[^3]: In BibTeX files, the identifiers can be any sequence of letters,
+    numbers, and any of the following punctuation: ‘`_`’, ‘`.`’, ‘`:`’,
+    and ‘`;`’.
 
-[4] Zotero is free software that runs on Windows, MacOS, and Linux, and
-you can download it from <https://zotero.org>
+[^4]: Zotero is free software that runs on Windows, MacOS, and Linux,
+    and you can download it from <https://zotero.org>
 
-[5] JabRef is free software that runs on Windows, MacOS, and Linux and
-you can download it from <https://jabref.org>.
+[^5]: JabRef is free software that runs on Windows, MacOS, and Linux and
+    you can download it from <https://jabref.org>.

@@ -1,7 +1,7 @@
 ---
 title: "Citations and Bibliographies"
 author: "Jonathan Gilligan"
-date: "2021-03-15"
+date: "2022-03-21"
 bibliography: "lab-08.bib"
 fontsize: 12pt
 output:
@@ -255,24 +255,24 @@ and confusing, so I would recommend one of three options:
 
     4. You will see something like this:
 
-        ```
-         @article{rogelj2012global,
-          title={Global warming under old and new scenarios using IPCC climate 
-                 sensitivity range estimates},
-          author={Rogelj, Joeri and Meinshausen, Malte and Knutti, Reto},
-          journal={Nature climate change},
-          volume={2},
-          number={4},
-          pages={248},
-          year={2012},
-          publisher={Nature Publishing Group}
-        }
-        ```
-        
+       ```
+       @article{rogelj2012global,
+       title={Global warming under old and new scenarios using IPCC climate 
+              sensitivity range estimates},
+       author={Rogelj, Joeri and Meinshausen, Malte and Knutti, Reto},
+       journal={Nature climate change},
+       volume={2},
+       number={4},
+       pages={248},
+       year={2012},
+       publisher={Nature Publishing Group}
+       }
+       ```
+
        Copy the entry and paste it into `lab-08.bib` in RStudio.
-         
-         In this entry, `rogelj2012global` is the key you would use
-         for citing and the other fields are pretty much self-explanatory.
+
+       In this entry, `rogelj2012global` is the key you would use
+       for citing and the other fields are pretty much self-explanatory.
 
        You can export in other formats that are used by other bibliographic
        software, but these are more cryptic and confusing to use. 
@@ -330,7 +330,7 @@ and confusing, so I would recommend one of three options:
      
 * If you have JabRef[^6] installed on your computer, you open `lab-08.bib`,
   manually create a new bibliographic entry and fill in the relevant data.
-  
+
 [^5]: Zotero is free software that runs on Windows, MacOS, and Linux, and you
 can download it from <https://zotero.org>
 

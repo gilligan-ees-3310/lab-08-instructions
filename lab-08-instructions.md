@@ -1,12 +1,12 @@
 Lab 8: Individual Research Project
 ================
 Jonathan Gilligan
-Report due April 1
+Report due April 8
 
 -   [Introduction](#introduction)
     -   [Solo or Team Projects](#solo-or-team-projects)
     -   [Choosing a Topic](#choosing-a-topic)
--   [Writen Report (Due Apr. 1)](#writen-report-due-apr-1)
+-   [Writen Report (Due Apr. 8)](#writen-report-due-apr-8)
 
 # Introduction
 
@@ -63,7 +63,7 @@ exercises should be plenty of work.
 that you have found interesting and present your findings in a unique,
 exciting way.
 
-# Writen Report (Due Apr. 1)
+# Writen Report (Due Apr. 8)
 
 Your report should be comprehensive, yet not overly verbose. One
 recommendation for achieving this is to create an outline to organize
@@ -89,23 +89,24 @@ needs to include the following components:
     -   This section should contain the R code you use to do the
         analysis:
 
-    -   Identifying the sources of data: what data did you use
-        (observations, model output, etc.), and why is that data useful
-        for addressing your research problem.
+        -   Identifying the sources of data: what data did you use
+            (observations, model output, etc.), and why is that data
+            useful for addressing your research problem.
 
-    -   How did you get your data into R? Did you download from the
-        internet, read it in from files on your computer, run models,
-        etc.
+        -   How did you get your data into R? Did you download from the
+            internet, read it in from files on your computer, run
+            models, etc.
 
-    -   How did you process your data to clean it up? Describe what your
-        R code did to manipulate the data to make it easier to analyze.
-        Think of how you used functions like `mutate`, `gather`,
-        `summarize`, etc. to convert the data into a useful form.
+        -   How did you process your data to clean it up? Describe what
+            your R code did to manipulate the data to make it easier to
+            analyze. Think of how you used functions like `mutate`,
+            `gather`, `summarize`, etc. to convert the data into a
+            useful form.
 
-    -   How did you analyze data? What did you do to analyze the data,
-        such as generating descriptive statistics like the mean or
-        standard deviation, fitting linear models to get slopes (rates
-        of change), etc.
+        -   How did you analyze data? What did you do to analyze the
+            data, such as generating descriptive statistics like the
+            mean or standard deviation, fitting linear models to get
+            slopes (rates of change), etc.
 
     -   The R code does not speak for itself, so describe what you did
         in words. Don’t tell the reader every little detail, but present
@@ -141,8 +142,8 @@ needs to include the following components:
         citations and bibliographies in RMarkdown.
 
 Final reports are to be pushed to your Lab 8 Github repository *no later
-than 11:59 PM on Apr. 1*. **You must push the .Rmd file *and* the
-knitted PDF** to Github. A portion of your final report grade will
-reflect effective use of R/RMarkdown/Github, the clarity and
-succinctness of your writing, visual representations of data,
-appropriate discussion of results, and insights into future analyses.
+than 5:00 PM on Apr. 8*. **You must push the .Rmd file *and* the knitted
+PDF** to Github. A portion of your final report grade will reflect
+effective use of R/RMarkdown/Github, the clarity and succinctness of
+your writing, visual representations of data, appropriate discussion of
+results, and insights into future analyses.
